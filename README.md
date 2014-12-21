@@ -1,5 +1,5 @@
 ##Overview
-Project 2 of Getting and Cleaning Data Coursera class.  The resulting text file is the tidy data set of the UCI Machine Learning Repository’s Human Activity Recognition Using Smartphones Data Set. The full explanation for the data set may be found at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#.
+Project 2 of Getting and Cleaning Data Coursera class.  The run_analysis.R file produces a resulting text file which is the tidy data set of the UCI Machine Learning Repository’s Human Activity Recognition Using Smartphones Data Set. The full explanation for the data set may be found at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#.
 
 
 ##Project Summary
