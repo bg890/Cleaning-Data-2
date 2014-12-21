@@ -48,9 +48,9 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 ## Resulting data set in masterData.txt file
 
---------------------------------------------------
-Column Name | Data type | Full name	| Explanation
---------------------------------------------------
+_____________________________________________________
+| Column Name | Data type | Full name	| Explanation |
+_____________________________________________________
 1. subject | numeric | | 1-30. The number associated with volunteer subject
 2. activity	| character	| | activity performed by subject WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 3. tBodyAccmeanX | numeric | Time Body Accelerometer Mean X	 |
