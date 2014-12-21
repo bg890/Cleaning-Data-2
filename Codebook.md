@@ -48,52 +48,54 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 ## Resulting data set in masterData.txt file
 
-### Column Name	- Data type	- Full name	- Explanation
-1. subject  numeric		1-30 The number associated with volunteer subject
-2. activity	character		activity performed by subject WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
-3. tBodyAccmeanX	numeric	Time Body Accelerometer Mean X	
-4. tBodyAccmeanY	numeric	Time Body Accelerometer Mean Y	
-5. tBodyAccmeanZ	numeric	Time Body Accelerometer Mean Z	
-6. tBodyAccstdX	numeric	Time Body Accelerometer Std Dev X	
-7. tBodyAccstdY	numeric	Time Body Accelerometer Std Dev Y	
-8. tBodyAccstdZ	numeric	Time Body Accelerometer Std Dev Z	
-9. tGravityAccmeanX	numeric	Time Gravity Accelerometer Mean X	
-10. tGravityAccmeanY	numeric	Time Gravity Accelerometer Mean Y	
-11. tGravityAccmeanZ	numeric	Time Gravity Accelerometer Mean Z	
-12. tGravityAccstdX	numeric	Time Gravity Accelerometer Std Dev X	
-13. tGravityAccstdY	numeric	Time Gravity Accelerometer Std Dev Y	
-14. tGravityAccstdZ	numeric	Time Gravity Accelerometer Std Dev Z	
-15. tBodyAccJerkmeanX	numeric	Time Body Accelerometer Jerk Mean X	
-16. tBodyAccJerkmeanY	numeric	Time Body Accelerometer Jerk Mean Y	
-17. tBodyAccJerkmeanZ	numeric	Time Body Accelerometer Jerk Mean Z	
-18. tBodyAccJerkstdX	numeric	Time Body Accelerometer Jerk Std Dev X	
-19. tBodyAccJerkstdY	numeric	Time Body Accelerometer Jerk Std Dev Y	
-20. tBodyAccJerkstdZ	numeric	Time Body Accelerometer Jerk Std Dev Z	
-21. tBodyGyromeanX	numeric	Time Body Gyroscope Mean X	
-22. tBodyGyromeanY	numeric	Time Body Gyroscope Mean Y	
-23. tBodyGyromeanZ	numeric	Time Body Gyroscope Mean Z	
-24. tBodyGyrostdX	numeric	Time Body Gyroscope Std Dev X	
-25. tBodyGyrostdY	numeric	Time Body Gyroscope Std Dev Y	
-26. tBodyGyrostdZ	numeric	Time Body Gyroscope Std Dev Z	
-27. tBodyGyroJerkmeanX	numeric	Time Body Gyroscope Jerk Mean X	
-28. tBodyGyroJerkmeanY	numeric	Time Body Gyroscope Jerk Mean Y	
-29. tBodyGyroJerkmeanZ	numeric	Time Body Gyroscope Jerk Mean Z	
-30. tBodyGyroJerkstdX	numeric	Time Body Gyroscope Jerk Std Dev X	
-31. tBodyGyroJerkstdY	numeric	Time Body Gyroscope Jerk Std Dev Y	
-32. tBodyGyroJerkstdZ	numeric	Time Body Gyroscope Jerk Std Dev Z	
-33. tBodyAccMagmean	numeric	Time Body Accelerometer Mag Mean	
-34. tBodyAccMagstd	numeric	Time Body Accelerometer Mag Std Dev	
-35. tGravityAccMagmean	numeric	Time Gravity Accelerometer Mag Mean	
-36. tGravityAccMagstd	numeric	Time Gravity Accelerometer Mag Std Dev	
-37. tBodyAccJerkMagmean	numeric	Time Body Accelerometer Jerk Mag Mean	
-38. tBodyAccJerkMagstd	numeric	Time Body Accelerometer Jerk Mag Std Dev	
-39. tBodyGyroMagmean	numeric	Time Body Gyroscope Mag Mean	
-40. tBodyGyroMagstd	numeric	Time Body Gyroscope Mag St Dev	
-41. tBodyGyroJerkMagmean	numeric	Time Body Gyroscope Jerk Mag Mean	
-42. tBodyGyroJerkMagstd	numeric	Time Body Gyroscope Jerk Mag Std Dev	
-43. fBodyAccmeanX	numeric	Fast Fourier Body Accelerometer Mean X	
-44. fBodyAccmeanY	numeric	Fast Fourier Body Accelerometer Mean Y	
-45. fBodyAccmeanZ	numeric	Fast Fourier Body Accelerometer Mean Z	
+--------------------------------------------------
+Column Name | Data type | Full name	| Explanation
+--------------------------------------------------
+1. subject | numeric | | 1-30. The number associated with volunteer subject
+2. activity	| character	| | activity performed by subject WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+3. tBodyAccmeanX | numeric | Time Body Accelerometer Mean X	 |
+4. tBodyAccmeanY	| numeric	| Time Body Accelerometer Mean Y	|
+5. tBodyAccmeanZ	| numeric	| Time Body Accelerometer Mean Z	|
+6. tBodyAccstdX	| numeric	| Time Body Accelerometer Std Dev X	|
+7. tBodyAccstdY	| numeric	| Time Body Accelerometer Std Dev Y	|
+8. tBodyAccstdZ	| numeric	| Time Body Accelerometer Std Dev Z	|
+9. tGravityAccmeanX	| numeric	| Time Gravity Accelerometer Mean X	|
+10. tGravityAccmeanY	| numeric	| Time Gravity Accelerometer Mean Y	|
+11. tGravityAccmeanZ	| numeric	| Time Gravity Accelerometer Mean Z	|
+12. tGravityAccstdX	| numeric	| Time Gravity Accelerometer Std Dev X	|
+13. tGravityAccstdY	| numeric	| Time Gravity Accelerometer Std Dev Y	|
+14. tGravityAccstdZ	| numeric	| Time Gravity Accelerometer Std Dev Z	|
+15. tBodyAccJerkmeanX	| numeric	| Time Body Accelerometer Jerk Mean X	|
+16. tBodyAccJerkmeanY	| numeric	| Time Body Accelerometer Jerk Mean Y	|
+17. tBodyAccJerkmeanZ	| numeric	| Time Body Accelerometer Jerk Mean Z	|
+18. tBodyAccJerkstdX	| numeric	| Time Body Accelerometer Jerk Std Dev X |	
+19. tBodyAccJerkstdY	| numeric	| Time Body Accelerometer Jerk Std Dev Y	|
+20. tBodyAccJerkstdZ	| numeric	| Time Body Accelerometer Jerk Std Dev Z	|
+21. tBodyGyromeanX	| numeric	| Time Body Gyroscope Mean X	|
+22. tBodyGyromeanY	| numeric	| Time Body Gyroscope Mean Y	|
+23. tBodyGyromeanZ	| numeric	| Time Body Gyroscope Mean Z	|
+24. tBodyGyrostdX	 | numeric	| Time Body Gyroscope Std Dev X	|
+25. tBodyGyrostdY	| numeric |	Time Body Gyroscope Std Dev Y	|
+26. tBodyGyrostdZ	| numeric	| Time Body Gyroscope Std Dev Z	|
+27. tBodyGyroJerkmeanX	| numeric	| Time Body Gyroscope Jerk Mean X	|
+28. tBodyGyroJerkmeanY	| numeric	| Time Body Gyroscope Jerk Mean Y	|
+29. tBodyGyroJerkmeanZ	| numeric	| Time Body Gyroscope Jerk Mean Z	|
+30. tBodyGyroJerkstdX	| numeric	| Time Body Gyroscope Jerk Std Dev X	|
+31. tBodyGyroJerkstdY	| numeric	| Time Body Gyroscope Jerk Std Dev Y	|
+32. tBodyGyroJerkstdZ	| numeric	| Time Body Gyroscope Jerk Std Dev Z	|
+33. tBodyAccMagmean	| numeric	| Time Body Accelerometer Mag Mean	|
+34. tBodyAccMagstd	| numeric	| Time Body Accelerometer Mag Std Dev	|
+35. tGravityAccMagmean	| numeric	| Time Gravity Accelerometer Mag Mean	|
+36. tGravityAccMagstd	| numeric	| Time Gravity Accelerometer Mag Std Dev |	
+37. tBodyAccJerkMagmean	| numeric	| Time Body Accelerometer Jerk Mag Mean	|
+38. tBodyAccJerkMagstd	| numeric	| Time Body Accelerometer Jerk Mag Std Dev	|
+39. tBodyGyroMagmean	| numeric	| Time Body Gyroscope Mag Mean |	
+40. tBodyGyroMagstd	| numeric	| Time Body Gyroscope Mag St Dev	|
+41. tBodyGyroJerkMagmean	| numeric	| Time Body Gyroscope Jerk Mag Mean	|
+42. tBodyGyroJerkMagstd	| numeric	| Time Body Gyroscope Jerk Mag Std Dev	|
+43. fBodyAccmeanX	| numeric	| Fast Fourier Body Accelerometer Mean X	|
+44. fBodyAccmeanY	| numeric	| Fast Fourier Body Accelerometer Mean Y	|
+45. fBodyAccmeanZ	| numeric	| Fast Fourier Body Accelerometer Mean Z	|
 46. fBodyAccstdX	numeric	Fast Fourier Body Accelerometer Std Dev X	
 47. fBodyAccstdY	numeric	Fast Fourier Body Accelerometer Std Dev Y	
 48. fBodyAccstdZ	numeric	Fast Fourier Body Accelerometer Std Dev Z	
