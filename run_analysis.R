@@ -74,7 +74,7 @@ setwd("../../../")
 ## Load dplyr library
 library(dplyr)
 
-## Create a data frame tbl from local data.fram
+## Create a data frame tbl from local data.frame
 mergetbl <- tbl_df(merger)
 
 ## Arrange by subject and activity from data frame tbl, group by subject, activity, summmarize data by each subject number and activity, and output file
