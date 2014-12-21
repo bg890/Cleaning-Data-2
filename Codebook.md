@@ -96,46 +96,46 @@ Column Name | Data type | Full name	| Explanation
 43. fBodyAccmeanX	| numeric	| Fast Fourier Body Accelerometer Mean X	|
 44. fBodyAccmeanY	| numeric	| Fast Fourier Body Accelerometer Mean Y	|
 45. fBodyAccmeanZ	| numeric	| Fast Fourier Body Accelerometer Mean Z	|
-46. fBodyAccstdX	numeric	Fast Fourier Body Accelerometer Std Dev X	
-47. fBodyAccstdY	numeric	Fast Fourier Body Accelerometer Std Dev Y	
-48. fBodyAccstdZ	numeric	Fast Fourier Body Accelerometer Std Dev Z	
-49. fBodyAccmeanFreqX	numeric	Fast Fourier Body Accelerometer Mean Frequency X	
-50. fBodyAccmeanFreqY	numeric	Fast Fourier Body Accelerometer Mean Frequency Y	
-51. fBodyAccmeanFreqZ	numeric	Fast Fourier Body Accelerometer Mean Frequency Z	
-52. fBodyAccJerkmeanX	numeric	Fast Fourier Body Accelerometer Jerk Mean X	
-53. fBodyAccJerkmeanY	numeric	Fast Fourier Body Accelerometer Jerk Mean Y	
-54. fBodyAccJerkmeanZ	numeric	Fast Fourier Body Accelerometer Jerk Mean Z	
-55. fBodyAccJerkstdX	numeric	Fast Fourier Body Accelerometer Jerk Std Dev X	
-56. fBodyAccJerkstdY	numeric	Fast Fourier Body Accelerometer Jerk Std Dev Y	
-57. fBodyAccJerkstdZ	numeric	Fast Fourier Body Accelerometer Jerk Std Dev Z	
-58. fBodyAccJerkmeanFreqX	numeric	Fast Fourier Body Accelerometer Mean Frequency X	
-59. fBodyAccJerkmeanFreqY	numeric	Fast Fourier Body Accelerometer Mean Frequency Y	
-60. fBodyAccJerkmeanFreqZ	numeric	Fast Fourier Body Accelerometer Mean Frequency Z	
-61. fBodyGyromeanX	numeric	Fast Fourier Body Gyroscope Mean X	
-62. fBodyGyromeanY	numeric	Fast Fourier Body Gyroscope Mean Y	
-63. fBodyGyromeanZ	numeric	Fast Fourier Body Gyroscope Mean Z	
-64. fBodyGyrostdX	numeric	Fast Fourier Body Gyroscope Std Dev X	
-65. fBodyGyrostdY	numeric	Fast Fourier Body Gyroscope Std Dev Y	
-66. fBodyGyrostdZ	numeric	Fast Fourier Body Gyroscope Std Dev Z	
-67. fBodyGyromeanFreqX	numeric	Fast Fourier Body Gyroscope Mean Frequency X	
-68. fBodyGyromeanFreqY	numeric	Fast Fourier Body Gyroscope Mean Frequency Y	
-69. fBodyGyromeanFreqZ	numeric	Fast Fourier Body Gyroscope Mean Frequency Z	
-70. fBodyAccMagmean	numeric	Fast Fourier Body Accelerometer Mean	
-71. fBodyAccMagstd	numeric	Fast Fourier Body Accelerometer Std Dev	
-72. fBodyAccMagmeanFreq	numeric	Fast Fourier Body Accelerometer Mag Mean Frequency	
-73. fBodyAccJerkMagmean	numeric	Fast Fourier Body Accelerometer Jerk Mag Mean	corrected fBodyBody in column name
-74. fBodyAccJerkMagstd	numeric	Fast Fourier Body Accelerometer Jerk Mag Std Dev	corrected fBodyBody in column name
-75. fBodyAccJerkMagmeanFreq	numeric	Fast Fourier Body Accelerometer Jerk Mag Mean Frequency	corrected fBodyBody in column name
-76. fBodyGyroMagmean	numeric	Fast Fourier Body Gyroscope Mag Mean	corrected fBodyBody in column name
-77. fBodyGyroMagstd	numeric	Fast Fourier Body Gyroscope Mag Std Dev	corrected fBodyBody in column name
-78. fBodyGyroMagmeanFreq	numeric	Fast Fourier Body Gyroscope Mag Mean Frequency	corrected fBodyBody in column name
-79. fBodyGyroJerkMagmean	numeric	Fast Fourier Body Gyroscope Mag Mean	corrected fBodyBody in column name
-80. fBodyGyroJerkMagstd	numeric	Fast Fourier Body Gyroscope Mag Std Dev	corrected fBodyBody in column name
-81. fBodyGyroJerkMagmeanFreq	numeric	Fast Fourier Body Gyroscope Mag Mean Frequency	corrected fBodyBody in column name
-82. angletBodyAccMeangravity	numeric	angle 	
-83. angletBodyAccJerkMeangravityMean	numeric	angle	
-84. angletBodyGyroMeangravityMean	numeric	angle	
-85. angletBodyGyroJerkMeangravityMean	numeric	angle	
-86. angleXgravityMean	numeric	angle	
-87. angleYgravityMean	numeric	angle	
-88. angleZgravityMean	numeric	angle	
+46. fBodyAccstdX	| numeric	| Fast Fourier Body Accelerometer Std Dev X	|
+47. fBodyAccstdY	| numeric	| Fast Fourier Body Accelerometer Std Dev Y	|
+48. fBodyAccstdZ	| numeric	| Fast Fourier Body Accelerometer Std Dev Z	|
+49. fBodyAccmeanFreqX	| numeric	| Fast Fourier Body Accelerometer Mean Frequency X	|
+50. fBodyAccmeanFreqY	| numeric	| Fast Fourier Body Accelerometer Mean Frequency Y |	
+51. fBodyAccmeanFreqZ	| numeric	| Fast Fourier Body Accelerometer Mean Frequency Z |
+52. fBodyAccJerkmeanX	| numeric	| Fast Fourier Body Accelerometer Jerk Mean X	|
+53. fBodyAccJerkmeanY	| numeric	| Fast Fourier Body Accelerometer Jerk Mean Y	|
+54. fBodyAccJerkmeanZ	| numeric	| Fast Fourier Body Accelerometer Jerk Mean Z	|
+55. fBodyAccJerkstdX	| numeric	| Fast Fourier Body Accelerometer Jerk Std Dev X |	
+56. fBodyAccJerkstdY	| numeric	| Fast Fourier Body Accelerometer Jerk Std Dev Y |	
+57. fBodyAccJerkstdZ	| numeric	| Fast Fourier Body Accelerometer Jerk Std Dev Z	|
+58. fBodyAccJerkmeanFreqX	| numeric	| Fast Fourier Body Accelerometer Mean Frequency X |	
+59. fBodyAccJerkmeanFreqY	| numeric	| Fast Fourier Body Accelerometer Mean Frequency Y |
+60. fBodyAccJerkmeanFreqZ	| numeric	| Fast Fourier Body Accelerometer Mean Frequency Z |
+61. fBodyGyromeanX	| numeric	| Fast Fourier Body Gyroscope Mean X	|
+62. fBodyGyromeanY	| numeric	| Fast Fourier Body Gyroscope Mean Y	|
+63. fBodyGyromeanZ	| numeric	| Fast Fourier Body Gyroscope Mean Z	|
+64. fBodyGyrostdX	| numeric	| Fast Fourier Body Gyroscope Std Dev X	|
+65. fBodyGyrostdY	| numeric	| Fast Fourier Body Gyroscope Std Dev Y	|
+66. fBodyGyrostdZ	| numeric	| Fast Fourier Body Gyroscope Std Dev Z	|
+67. fBodyGyromeanFreqX	| numeric	| Fast Fourier Body Gyroscope Mean Frequency X	|
+68. fBodyGyromeanFreqY	| numeric	| Fast Fourier Body Gyroscope Mean Frequency Y	|
+69. fBodyGyromeanFreqZ	| numeric	| Fast Fourier Body Gyroscope Mean Frequency Z	|
+70. fBodyAccMagmean	| numeric	| Fast Fourier Body Accelerometer Mean	|
+71. fBodyAccMagstd	| numeric	| Fast Fourier Body Accelerometer Std Dev	|
+72. fBodyAccMagmeanFreq	| numeric	| Fast Fourier Body Accelerometer Mag Mean Frequency	|
+73. fBodyAccJerkMagmean	| numeric	| Fast Fourier Body Accelerometer Jerk Mag Mean	| corrected fBodyBody in column name
+74. fBodyAccJerkMagstd	| numeric	| Fast Fourier Body Accelerometer Jerk Mag Std Dev	| corrected fBodyBody in column name
+75. fBodyAccJerkMagmeanFreq	numeric	Fast Fourier Body Accelerometer Jerk Mag Mean Frequency	| corrected fBodyBody in column name
+76. fBodyGyroMagmean	| numeric	| Fast Fourier Body Gyroscope Mag Mean	| corrected fBodyBody in column name
+77. fBodyGyroMagstd	| numeric	| Fast Fourier Body Gyroscope Mag Std Dev	| corrected fBodyBody in column name
+78. fBodyGyroMagmeanFreq	| numeric	| Fast Fourier Body Gyroscope Mag Mean Frequency	| corrected fBodyBody in column name
+79. fBodyGyroJerkMagmean	| numeric	| Fast Fourier Body Gyroscope Jerk Mag Mean	| corrected fBodyBody in column name
+80. fBodyGyroJerkMagstd	| numeric	| Fast Fourier Body Gyroscope Jerk Mag Std Dev	| corrected fBodyBody in column name
+81. fBodyGyroJerkMagmeanFreq	| numeric	| Fast Fourier Body Gyroscope Mag Mean Frequency	| corrected fBodyBody in column name
+82. angletBodyAccMeangravity	| numeric	| angle 	
+83. angletBodyAccJerkMeangravityMean	| numeric	| angle	
+84. angletBodyGyroMeangravityMean	| numeric	| angle	
+85. angletBodyGyroJerkMeangravityMean	| numeric	| angle	
+86. angleXgravityMean	| numeric	| angle	
+87. angleYgravityMean	| numeric	| angle	
+88. angleZgravityMean	| numeric	| angle	
