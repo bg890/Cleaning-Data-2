@@ -71,7 +71,7 @@ merger$activity <- as.character(merger$activity)
 ## Set working directory to home directory
 setwd("../../../")
 
-## Load dplyr librar
+## Load dplyr library
 library(dplyr)
 
 ## Create a data frame tbl from local data.frame 
